@@ -1,0 +1,142 @@
+ *{
+            box-sizing:border-box;
+               scroll-behavior:smooth;
+        }
+
+body{
+    background:#eaeaea;
+}
+/*navbar*/
+.navbar{
+    margin:5px auto;
+    width:90%;
+}
+.navbar .navbar-nav a.nav-link{
+    color: white;
+}
+        
+.navbar .navbar-nav .nav-link:hover::after,
+.navbar .navbar-nav .nav-link.active::after {
+            content: '';
+            display: block;
+            border-bottom: 3px solid #0B63DC;
+            margin: auto;
+            margin-bottom: -8px;
+            width: 50%;
+            padding-top: 5px;
+}
+/*navbar*/
+
+/*jumbotron*/
+.jumbotron{
+    height:70vh;
+    background:white;
+    margin: auto;
+    width: 90%;
+    margin-top:100px;
+}
+/*jumbotron*/
+
+/*sapa alumni*/
+.sapa_alumni{
+    background: white;
+    padding: 10px;
+    width:90%;
+    margin: auto;
+}
+.sapa_alumni .col-lg-3 .card{
+    text-align: center;
+    border:none;
+}
+/*sapa alumni*/
+
+/*berita*/
+.berita{
+    /*background:white;*/
+    width:90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.berita .col-lg-4 .card{
+    border: none;
+}
+.berita .col-lg-4 .card .card-body{
+    margin-left: -17px;
+}
+.berita img{
+    height:200px;
+}
+/*berita*/
+
+/*footer */
+footer{
+    width:90%;
+    margin: 20px auto;
+    border: 2px solid black;
+    align-items: center;
+    line-height:25px;
+    height:30px;
+}
+/*footer*/
+
+.register{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    /*border: 2px solid black;*/
+    background-color: white;
+    margin-top: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,500;0,700;1,300&display=swap');
+.container-form{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.login-form {
+    /*margin-top:30px;*/
+    height: 400px;
+    width: 430px;
+    padding: 0 35px;
+    background-color: white;
+    border: none;
+}
+
+input[type="email"]
+input[type="password"] {
+    border-radius: 20px;
+}
+
+.btn-login{
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+    width: 100%;
+}
+
+.link{
+    color: #198754;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #198754;
+    text-decoration: none;
+}
+
+.btn-google{
+    height: 35px;
+    border: 2px solid rgb(144, 227, 241);
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.img-google{
+    height: 20px;
+    width: 20px;
+}
+       
